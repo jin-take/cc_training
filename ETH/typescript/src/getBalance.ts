@@ -9,8 +9,9 @@ dotenv.config();
 const sepoliaProvider = new ethers.JsonRpcProvider('https://rpc.sepolia.org');
 
 async function getBalance(): Promise<void> {
-    // const walletAddress:ethers.AddressLike = "<enter sender address here>";
-    const walletAddress:ethers.AddressLike = process.env.PUBLIC_KEY_SENDER as string;;
+    const walletAddress:ethers.AddressLike = "<enter sender address here>";
+    // Case: From .env file 
+    // const walletAddress:ethers.AddressLike = process.env.PUBLIC_KEY_SENDER as string;;
 
     // Get Balance from wallet address
     const balance = await sepoliaProvider.getBalance(walletAddress);
