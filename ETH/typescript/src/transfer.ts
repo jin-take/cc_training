@@ -6,12 +6,12 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 // Setting up private key of sender and recipient addresses
-// const senderPrivateKey = '<enter sender private key here>';
-// const recipientAddress = '<enter recipient address here>';
+const senderPrivateKey = '<enter sender private key here>';
+const recipientAddress = '<enter recipient address here>';
 
 // Case: From .env file 
-const senderPrivateKey = process.env.PRIVATE_KEY_SENDER as string;
-const recipientAddress = process.env.PUBLIC_KEY_RECIPIENT as string;
+// const senderPrivateKey = process.env.PRIVATE_KEY_SENDER as string;
+// const recipientAddress = process.env.PUBLIC_KEY_RECIPIENT as string;
 
 // RPC Provider on Sepolia testnet
 const sepoliaProvider = new ethers.JsonRpcProvider('https://rpc.sepolia.org');
