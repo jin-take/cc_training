@@ -1,0 +1,93 @@
+# Node.js dependencies
+node_modules/
+
+# TypeScript compiled output
+dist/
+build/
+
+# Optional npm cache directory
+.npm/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.main
+.env.test
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Miscellaneous
+*.swp
+*~
+
+# Ignore all .map files (source maps)
+*.map
+
+# Ignore lock files
+package-lock.json
+yarn.lock
+
+# Ignore coverage reports
+coverage/
+
+# Ignore temporary files
+.tmp/
+.temp/
+
+# Ignore test output
+test-results/
+
+# Golang build artifacts
+bin/
+pkg/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go modules
+go.sum
+go.work
+go.work.sum
+
+# Go test binary
+*.test
+
+# Output of the go coverage tool
+coverage.out
+
+# Go workspace file
+go.work
+
+# Ignore any compiled code
+*.o
+*.a
+*.out
+
+# Other Go-specific files
+.idea/
+*.iml
+.DS_Store
+.vscode/
+
+# Go vendor dependencies
+vendor/
